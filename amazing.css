@@ -4,4 +4,6 @@
 #sadwelcome {
     color: #2c2f66;
     font-family: 'Courier New', Courier, monospace;
+    margin: center;
+    font-weight:lighter;
 }
