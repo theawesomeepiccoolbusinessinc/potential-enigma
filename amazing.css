@@ -11,6 +11,7 @@
 body { 
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 #bunni {
@@ -36,6 +37,7 @@ a:focus {
 main {
     flex: 1;
     padding: 2px 20px;
+    margin-bottom: 200px;
 }
 footer {
     background-color: #1d3a54;
@@ -48,6 +50,7 @@ justify-content: center;
     flex-direction: column;
     align-items: center;
     line-height: 1.3;
+    margin-bottom: 0px;
 }
 footer a {
     color: #b0b9de;
@@ -73,4 +76,8 @@ footer div {
 }
 footer p {
     margin: auto;
+}
+html, body {
+    height: 100%;
+    margin: 0;
 }
