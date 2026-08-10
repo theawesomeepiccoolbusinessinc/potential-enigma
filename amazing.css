@@ -80,7 +80,7 @@ footer div {
 }
 footer p {
     margin: auto;
-    font-size: clamp(0.8rem, 1vw, 1rem);
+    font-size: 0.5rem;
 }
 html, body {
     height: 100%;
