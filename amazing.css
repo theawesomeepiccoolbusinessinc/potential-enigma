@@ -16,3 +16,11 @@ body {
     display: block;
     margin: auto;
 }
+
+a:hover {
+    color:pink;
+}
+
+a:active {
+    color:rgb(128, 0, 98);
+}
