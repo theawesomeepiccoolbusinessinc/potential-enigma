@@ -80,9 +80,12 @@ footer div {
 }
 footer p {
     margin: auto;
-    font-size: 0.5rem;
 }
 html, body {
     height: 100%;
+    margin: 0;
+}
+#moil {
+    font-size: 0.7rem;
     margin: 0;
 }
