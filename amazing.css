@@ -27,7 +27,6 @@ a {
 a:hover {
     color:pink;
     transform: scale(1.08)
-    transform: scale(1.08)
 }
 
 a:active {
@@ -61,6 +60,7 @@ footer a {
 }
 footer a:hover {
     color: #cdc8fe;
+    transform: scale(1.05);
 }
 footer address {
     font-style: normal;
@@ -88,4 +88,26 @@ html, body {
 #moil {
     font-size: 0.7rem;
     margin: 0;
+}
+
+.text {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.bighead {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e2effa;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    display: inline-block;
+    transition: transform 2s ease;
+}
+
+.head {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.bighead:hover {
+    transform: translateY(-1000px)  skewY(200deg) scale(2) rotate(360deg);
 }
